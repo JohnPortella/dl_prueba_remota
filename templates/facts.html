@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cat Facts</title>
+</head>
+<body>
+  <ul>
+    {% for cat_fact in cat_facts %}
+      <li>{{ cat_fact.fact }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
+
